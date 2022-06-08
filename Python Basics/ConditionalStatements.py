@@ -96,10 +96,13 @@ num1 = int(input("Enter First Number : "))
 num2 = int(input("Enter Second Number : "))
 num3 = int(input("Enter Third Number : "))
 if num1 > num2 and num1 > num3:
-    print(str(num1) + " (first number) is greater then " + str(num2) + " (second number), and " + str(num3) + " (third number)")
+    print(str(num1) + " (first number) is greater then " + str(num2) + " (second number), and " + str(num3) + "(third "
+                                                                                                              "number)")
 elif num2 > num1 and num2 > num3:
-    print(str(num2) + " (second number) is greater then " + str(num1) + " (first number), and " + str(num3) + " (third number)")
+    print(str(num2) + " (second number) is greater then " + str(num1) + " (first number), and " + str(num3) + "(third "
+                                                                                                              "number)")
 elif num3 > num1 and num3 > num2:
-    print(str(num3) + " (third number) is greater then " + str(num1) + " (first number), and " + str(num2) + " (second number)")
+    print(str(num3) + " (third number) is greater then " + str(num1) + " (first number), and " + str(num2) + "(second "
+                                                                                                             "number)")
 else:
     print("Invalid Combination")
